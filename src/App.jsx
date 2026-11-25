@@ -14,8 +14,6 @@ export default function CryptoPriceTracker() {
   const [error, setError] = useState(null);
   const [selectedCoin, setSelectedCoin] = useState(null);
 
-  // Your CoinMarketCap API key
-  // const API_KEY = '114e7b2b-3917-4091-9a77-eec0ef405279';
 
   const fetchCryptoData = async () => {
     setIsLoading(true);
